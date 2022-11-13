@@ -4,6 +4,9 @@ authors:
 - family-names: "Troelnikov"
   given-names: "Alexander"
   orcid: "https://orcid.org/0000-0002-7239-3814"
+- family-names: "Harvey"
+  given-names: "Isaac"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
 title: "BlotR"
 version: 1.0.0
 doi: 10.5281/zenodo.1234
