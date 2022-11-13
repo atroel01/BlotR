@@ -23,6 +23,9 @@ Currently the app will extract details:
 
 Requires R (https://www.r-project.org/)
 RStudio (now called Posit) is recommended for simpler interfacing and editing of script (https://posit.co/).
+
+Download both R scripts (app.R and fun.R) to chosen folder.
+
 App can be executed through command line
 - once R installed open a terminal or command line at app.R file path 
 - Enter command `Rscript app.R` and visit the url generated (an example below)
@@ -47,7 +50,10 @@ Detecting the color of the strip in the PDF is time consuming and will add subst
 
 Bug: Sometimes changing tabs (Summary of Tests/Summary Graph/Repeated) is required to initiate parsing. 
 
-You can enter names of results you wish to filter out or highlight as qc values in lower case (comma seperated e.g. qc, eib, qap,...)
+#Filtering
+
+You can enter names of results you wish to filter out or highlight as qc values in lower case (comma seperated e.g. qc, eib, qap,...).
+Filtering is based on regular expression detection and so filtering terms must be reasonably specific or it may perform not as intended.
 
 # Output
 
@@ -56,3 +62,6 @@ Once the blots have been parsed the app will have outputs of
 - Graph of all results (output graph when large data takes a while to generate - this is in plotly format)
 - Repeated results, intensities and changes where name and DOB match (incorrect entry of these results will make it miss repeated values).
 - A spreadsheet with one blot result per row and the intensities will be available for download from the download button.
+
+#Citation 
+
