@@ -65,14 +65,13 @@ Once the blots have been parsed the app will have outputs of
 
 # Citation 
 ```
-    @software{
-      Troelnikov_BlotR_2022,
-      author = {Troelnikov, Alexander},
-      doi = {10.5281/zenodo.1234},
-      month = {11},
-      title = {{BlotR}},
-      url = {https://github.com/atroel01/BlotR},
-      version = {1.0.0},
-      year = {2022}
-    }
+  @software{Troelnikov_BlotR_2022,
+  author = {Troelnikov, Alexander and Harvey, Isaac},
+  doi = {10.5281/zenodo.1234},
+  month = {11},
+  title = {{BlotR}},
+  url = {https://github.com/atroel01/BlotR},
+  version = {1.0.0},
+  year = {2022}
+  }
 ```
