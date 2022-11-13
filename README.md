@@ -63,5 +63,16 @@ Once the blots have been parsed the app will have outputs of
 - Repeated results, intensities and changes where name and DOB match (incorrect entry of these results will make it miss repeated values).
 - A spreadsheet with one blot result per row and the intensities will be available for download from the download button.
 
-#Citation 
-
+# Citation 
+```
+    @software{
+      Troelnikov_BlotR_2022,
+      author = {Troelnikov, Alexander},
+      doi = {10.5281/zenodo.1234},
+      month = {11},
+      title = {{BlotR}},
+      url = {https://github.com/atroel01/BlotR},
+      version = {1.0.0},
+      year = {2022}
+    }
+```
