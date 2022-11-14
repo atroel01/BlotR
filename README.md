@@ -50,7 +50,7 @@ Detecting the color of the strip in the PDF is time consuming and will add subst
 
 Bug: Sometimes changing tabs (Summary of Tests/Summary Graph/Repeated) is required to initiate parsing. 
 
-#Filtering
+# Filtering
 
 You can enter names of results you wish to filter out or highlight as qc values in lower case (comma seperated e.g. qc, eib, qap,...).
 Filtering is based on regular expression detection and so filtering terms must be reasonably specific or it may perform not as intended.
